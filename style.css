@@ -181,3 +181,16 @@ border: none;
 .loadhead{
     padding-top: 30px;
 }
+
+
+/* video heading */
+.vidhead{
+    float:left;
+    padding-left:30px ;
+    color: darkred;
+}
+
+.my{
+    border: solid 20px white;
+    width: 600px;
+}
