@@ -1,0 +1,183 @@
+/* the heading */
+#Head{
+    color:chartreuse;
+    background-color:darkslategrey;
+    height: 80px;
+    border: solid black;
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-width: 10PX;
+    border-color: orangered orange brown blue;
+    border-radius: 8px;
+
+}
+
+
+
+/* the links */
+
+.nav3{
+    float: right;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 10px;
+    transform: translateY(-100px); translate:10px ;
+   color: orange;
+    
+}
+
+:hover.nav3{
+    color: chartreuse;
+}
+
+
+/* social media logos */
+.di{
+    float: left;
+    text-align: center;
+    margin-left: 10px; 
+    transform: translate(60px);
+    
+}
+
+/* about myself */
+.about{
+    height: 150px;
+    width: 200px;
+    border: none;
+    margin-bottom: 50px ;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    background-color: rgb(66, 18, 26);
+    justify-content: center;
+    margin-left: 75px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* background image */
+
+
+
+
+/* my image */
+.sim{
+    float: right;
+  
+}
+
+/* all divs */
+
+.all{
+    height: 150px;
+    width: 150px;
+    border: none;
+    float: right;
+    margin: 30px;
+    color:white;
+    background-color: navy;
+    text-align: center;
+    transform: translateX(-100%);
+    
+}
+
+.allb{
+    height: 150px;
+    width: 150px;
+    border: none;
+    float: right;
+    margin: 30px;
+    color: white;
+    background-color: navy;
+    text-align: center;
+    transform: translateX(-100%);
+
+
+}
+
+/* my services */
+#ser2{
+    color: crimson;
+    text-decoration: underline;
+    margin-left: 50px;
+}
+
+#ser3{
+    font-size:19px ;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+body{
+    background-image: url(full\ img.PNG);
+
+}
+
+h3{
+    text-align: right;
+    margin-right: 40px;
+    color: orangered;
+    
+}
+
+/* form */
+.fm{
+text-align: right;
+translate:-20px ;
+border: none;
+
+
+}
+
+/* button */
+.b{
+    translate: -160px ; 
+    width: 80px;
+    padding: 5px 5px 5px 5px;
+    background-color: green;
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+
+/* footer */
+.foot{
+    text-align: center;
+    border: none ;
+    background-color: orangered;
+    color: white;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+/* Animation */
+.load{
+    border: 10px solid olive;
+    border-radius: 50%;
+    border-top: 10px solid white;
+    width: 120px;
+    height: 120px;
+    animation: rotate 2s linear infinite;
+    float: right;
+    margin-right: 40px;
+
+}
+
+@keyframes rotate{
+    0%{ transform: rotate(0deg);
+ }
+ 100%{transform: rotate(360deg) ;
+
+ }
+}
+
+/* Animation heading */
+.loadhead{
+    padding-top: 30px;
+}
